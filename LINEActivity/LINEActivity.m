@@ -7,10 +7,12 @@
 
 #import "LINEActivity.h"
 
+NSString *const LineActivityType = @"jp.naver.LINEActivity";
+
 @implementation LINEActivity
 
 - (NSString *)activityType {
-    return @"jp.naver.LINEActivity";
+    return LineActivityType;
 }
 
 - (UIImage *)activityImage

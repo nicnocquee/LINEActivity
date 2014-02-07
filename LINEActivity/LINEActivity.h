@@ -7,6 +7,8 @@
 
 #import <UIKit/UIKit.h>
 
+extern NSString *const LineActivityType;
+
 @interface LINEActivity : UIActivity
 
 @end
